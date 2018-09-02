@@ -1,0 +1,20 @@
+.resume {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.resume-header {
+	text-align: center;
+}
+
+.resume-body>.left-column {
+	float: left;
+	width: 30%;
+}
+
+.resume-body>.right-column {
+	float: right;
+	width: 70%;
+}
