@@ -1,4 +1,5 @@
 body.home {
+	background-color: #232729;
 	padding-bottom: 70%;
 }
 
@@ -20,6 +21,7 @@ body.home {
 .logo {
 	margin: 25px auto;
   font-family: 'Philosopher', sans-serif;
+  color: #8E949B;
   text-align: center;
   text-transform: uppercase;
 }
@@ -30,8 +32,8 @@ body.home {
 }
 
 .navigation {
-	border-top: 1px solid #DBDCDF;
-  border-bottom: 1px solid #DBDCDF;
+	border-top: 1px solid #8E949B;
+  border-bottom: 1px solid #8E949B;
   margin: 25px auto 0 auto;
 }
 
@@ -114,7 +116,7 @@ body.home {
 
 
 #big-square {
-	background-color: #000;
+	background-color: #1B1C1E;
   position: fixed;
   max-width: 610px;
   width: 100%;
@@ -141,7 +143,7 @@ body.home {
 }
 
 .contact-container input {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #fff;
 	border: 0;
 	margin: 10px 0;
 	padding: 5px;
@@ -152,13 +154,14 @@ body.home {
 }
 
 .contact-container textarea{
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #fff;
+  border: none;
 	height: 70px;
 	overflow: auto;
 }
 
 .contact-container input, .contact-container textarea {
-	color: #FFFFFF;
+	color: #000;
 	font-size: 14px;
 }
 
