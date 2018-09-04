@@ -19,11 +19,16 @@ body.home {
 }
 
 .logo {
-	margin: 25px auto;
+	position: fixed;
+  width: 100%;
+	padding: 25px 0;
+	top: 0;
   font-family: 'Philosopher', sans-serif;
   color: #8E949B;
   text-align: center;
   text-transform: uppercase;
+  background-color: #232729;
+  z-index: 100;
 }
 
 .navigation, .lower-navigation {
@@ -34,7 +39,7 @@ body.home {
 .navigation {
 	border-top: 1px solid #8E949B;
   border-bottom: 1px solid #8E949B;
-  margin: 25px auto 0 auto;
+  margin: 95px auto 0 auto;
 }
 
 .navigation a, .lower-navigation a {
@@ -85,7 +90,7 @@ body.home {
 .hero {
 	background-color: white;
 	border: 1px solid #8E949B;
-	margin: 25px auto 0 auto;
+	margin: 42px auto 0 auto;
 	height: 410px;
 	width: 100%;
 }
