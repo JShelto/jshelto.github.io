@@ -18,7 +18,7 @@ body.home {
 	z-index: 0;
 }
 
-.logo {
+header.logo {
 	position: fixed;
   width: 100%;
 	padding: 25px 0;
@@ -29,6 +29,10 @@ body.home {
   text-transform: uppercase;
   background-color: #232729;
   z-index: 100;
+}
+
+header>h2 {
+	font-size: 0.83em
 }
 
 .navigation, .lower-navigation {
